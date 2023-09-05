@@ -3,7 +3,7 @@
 # 🍰 Portfólio Digital 🍰
 
 <div align="center">
-<img src="mais_uma_foto_minha.png" width="200px">
+<img src="D:\Program Files (x86)\Fatec\1º semestre\Design Digital\portfolio_digital_dsm\mgt\imagem\mais_uma_foto_minha.bmp" width="200px">
 </div>
 
 > Desenvolvedor: Eber de Souza Silva Junior
