@@ -3,7 +3,7 @@
 # 🍰 Portfólio Digital 🍰
 
 <div align="center">
-<img src="mais_uma_foto_minha.png" width="200px">
+<img src="/mgt/mais_uma_foto_minha.png" width="200px">
 </div>
 
 > Desenvolvedor: Eber de Souza Silva Junior
