@@ -31,7 +31,7 @@
 ```python 
  # Abra o prompt de comando e clone este repositório:
  
- git clone https://github.com/juliamariahr/portfolio_digital_dsm.git
+ git clone https://github.com/eberssj/portfolio_digital_dsm
  
  # Se direcione à pasta src:
    
