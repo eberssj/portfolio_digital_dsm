@@ -1,0 +1,114 @@
+    {% extends "base.htm" %}
+
+    {% block content %}
+
+    <main>
+        <div class="informacoes_gerais">
+            <div class="titulo">
+                <h1>
+                    Informações gerais:
+                </h1>
+            </div>
+            <div class="texto">
+                <p>
+                    Meu nome completo é Eber de Souza Silva Junior.
+                </p>
+                <p>
+                    Nasci no dia 28/03/2005, tenho 18 anos.
+                </p>
+                <p>
+                    Nasci em São José dos Campos, São Paulo.
+                </p>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="interesses">
+            <div class="titulo">
+                <h1>
+                    Interesses: 
+                </h1>
+            </div>
+            <div class="texto">
+                <p>
+                    Gosto muito de todo tipo de arte, principalmente música, obras audiovisuais e pintura.
+                    Tenho também um grande apreço por filosofia e sociologia. Pensar sobre a vida humana é algo que sempre me chamou atenção, por isso uma das minhas correntes filosóficas favoritas é o Existencialismo. 
+                    Posso dizer que gosto muito de pessoas em geral, observar os comportamentos e estudá-los é algo intrigante! Sendo assim, eu estudo psicologia e corpotamento humano sempre que eu posso, principalmente as derivações das obras de Carl Jung. Uma dessas derivações que eu mais gosto é a teoria do MBTI.
+                </p>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="filmes">
+            <div class="titulo">
+                <h1>
+                    Filmes favoritos:
+                </h1>
+            </div>
+            <div class="filmes-separados">
+                <div class="filme-1">
+                    <img srcset="../static/img/amelie-poster200.jpg 200w, ../static/img/amelie-poster500.jpg 500w"
+                    sizes="(max-width: 800px) 250px, 250px"
+                    alt="little women" class="poster-filme">
+                    <h3 class="nome-filme">Amélie Poulain (2001)</h3>
+                </div>
+                <div class="filme-2">
+                    <img srcset="../static/img/coraline-poster200.jpg 200w, ../static/img/coraline-poster500.jpg 500w"
+                    sizes="(max-width: 800px) 73px, 73px"
+                    alt="before sunset" class="poster-filme">
+                    <h3 class="nome-filme">Coraline (2009)</h3>
+                </div>
+                <div class="filme-3">
+                    <img srcset="../static/img/marieantoinette-poster200.jpg 200w, ../static/img/marieantoinette-poster500.jpg 500w"
+                    sizes="(max-width: 800px) 250px, 250px"
+                    alt="whiplash" class="poster-filme">
+                    <h3 class="nome-filme">Marie-Antoinette (2006)</h3>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="artistas">
+            <div class="titulo">
+                <h1>Artistas favoritos:</h1>
+            </div>
+            <div class="cards-artists">
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/mitski200.jpg 200w, ../static/img/mitski500.jpg 500w"
+                    sizes="(max-width: 600px) 150px, 196px"
+                    alt="mitski" class="artists-photo">
+                    <div  class="card-body">
+                        <h5 class="card-title">Mitski</h5>
+                        <a href="https://open.spotify.com/playlist/3oNa44bv0A4lobpcIEpD3j?si=9dd5650a35644f15" class="btn btn-primary btn-custom" target="_blank">Ouça a playlist!</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/laufey200.jpg 200w, ../static/img/laufey500.jpg 500w"
+                    sizes="(max-width: 600px) 150px, 79px"
+                    alt="laufey" class="artists-photo">
+                     <div  class="card-body">
+                        <h5 class="card-title">Laufey</h5>
+                        <a href="https://open.spotify.com/playlist/55sJnMW7uRbtFz9Q5tFFzI?si=6b8ef45867a9405d" class="btn btn-primary btn-custom" target="_blank">Ouça a playlist!</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img srcset="../static/img/lana200.jpg 200w, ../static/img/lana500.jpg 500w"
+                    sizes="(max-width: 600px) 150px, 80px"
+                    alt="lana" class="artists-photo">
+                    <div  class="card-body">
+                        <h5 class="card-title">Lana del Rey</h5>
+                        <a href="https://open.spotify.com/playlist/3e3oZDINhwDNp6plBSGO8a?si=a30e18d8eb4a431d" class="btn btn-primary btn-custom" target="_blank">Ouça a playlist!</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    {% endblock content %}
