@@ -51,12 +51,8 @@
  
  # Execute a aplicação app.py:
    
-<<<<<<< HEAD
- flask run
-=======
 python app.py
->>>>>>> 05f9c3ba8fc483024505230c283761ee90ac158c
- 
+
  # Acessar o site pelo link fornecido na terminal.
 
 http://127.0.0.1:5000
