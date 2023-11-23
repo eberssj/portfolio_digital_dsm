@@ -33,9 +33,9 @@
  
  git clone https://github.com/eberssj/portfolio_digital_dsm
  
- # Se direcione à pasta src:
+ # Se direcione à pasta api:
    
- cd portfolio_digital_dsm/src
+ cd api
  
  # Crie um ambiente virtual:
  
