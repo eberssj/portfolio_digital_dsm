@@ -3,7 +3,7 @@
 # 🍰 Portfólio Digital 🍰
 
 <div align="center">
-<img src="/mgt/mais_uma_foto_minha.png" width="200px">
+<img src="../mgt/img/foto_port200.jpg" width="200px">
 </div>
 
 > Desenvolvedor: Eber de Souza Silva Junior
@@ -43,7 +43,7 @@
  
  # Ative o ambiente virtual:
  
- venv/Scripts/activate
+ .venv/Scripts/activate
  
  # Instale os requisitos para rodar a aplicação:
    
@@ -51,8 +51,8 @@
  
  # Execute a aplicação app.py:
    
-flask --debug run
+python app.py
  
  # Acessar o site pelo link fornecido na terminal.
 
-
+http://127.0.0.1:5000
