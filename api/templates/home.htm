@@ -1,0 +1,57 @@
+    {% extends "base.htm" %}
+
+    {% block content %}
+
+    <main class="corpo">
+        
+        <div class="titulo titulo_margem">
+            <h1> Seja bem vindo ao meu portfólio!</h1>
+        </div>
+
+        <div class ="principal">
+
+            <div class="foto-minha">
+
+                <img srcset="../static/img/foto_port200.jpg 200w, ../static/img/foto_port500.jpg 500w"
+                sizes="(max-width: 800px) 50px, 60px"
+                class="foto-minha" alt="foto minha">
+        
+            </div>
+
+            <div class="texto_home">
+                
+                <p> 
+                    Meu nome é Eber Junior e esse é o meu portfólio pessoal. 
+                    Aqui você poderá encontrar todo tipo de informação sobre mim, como, meu histórico acadêmico, formas de contato, interesses pessoais e características sobre minha personalidade.
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr class="hr">
+
+        <div class="titulo">
+            <h1>Entre em contato:</h1>
+        </div>
+        
+        <div class="botao-email">
+            <a href="mailto:eberssjunior12@gmail.com" target="_blank" class="btn-email">
+                <img src="../static/img/icone_email.png" alt="" width="50" height="50">
+                Me mande um email!
+            </a>
+        </div>
+        <div class="botao-insta">
+            <a href="https://www.instagram.com/ebrnabs/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank" class="btn-insta">
+                <img src="../static/img/icone_instagram.png" alt="" width="50" height="50">
+                Me siga no instagram!
+            </a>
+        </div>
+        
+        
+        
+          
+
+    </main>
+
+    {% endblock content %}

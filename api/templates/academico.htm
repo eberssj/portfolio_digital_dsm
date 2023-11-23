@@ -1,0 +1,72 @@
+    {% extends "base.htm" %}
+
+    {% block content %}
+
+    <main>
+        <div class="instituicoes_de_ensino"> 
+            <div class="titulo">
+                <h1>Instituições de ensino e cursos:</h1>
+            </div>
+            <div class="ensino-imgs">
+                <div class="ensino-1">
+                    <img srcset="../static/img/univap200.png 200w, ../static/img/univap500.png 500w"
+                    sizes="(max-width: 800px) 500px, 500px"
+                    alt="card-ensino" class="card-ensino">
+                </div>
+                <div class="ensino-2">
+                    <img srcset="../static/img/kumon200.png 200w, ../static/img/kumon500.png 500w"
+                    sizes="(max-width: 800px) 500px, 500px"
+                    alt="before sunset" class="card-ensino">
+                    
+                </div>
+                <div class="ensino-3">
+                    <img srcset="../static/img/cestparti200.png 200w, ../static/img/cestparti500.png 500w"
+                    sizes="(max-width: 800px) 500px, 500px"
+                    alt="whiplash" class="card-ensino">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <hr class="hr">
+
+        <div class="habilidades">
+            <div class="titulo">
+                <h1>Habilidades:</h1>
+            </div>
+            <div class="texto">
+                <p>
+                    Tenho um profundo interesse em comunicação, logo, falar outras línguas sempre foi algo importante para mim. Atualmente, falo três línguas, sendo elas Português, Inglês e Francês.
+                    Prezo muito pela comunicação e empatia em todo tipo de relação, sendo assim, procuro sempre desenvolver isso em mim.
+                </p>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="projetos">
+            <div class="titulo">
+                <h1>
+                    Projetos desenvolvidos ou em desenvolvimento: 
+                </h1>
+            </div>
+            <div class="texto">
+                <p>
+                    Atualmente estou cursando Desenvolvimento de Software Multiplataforta e esses são alguns dos meus projetos, caso queira saber mais acesse o link para os repositórios correspondentes a cada projeto.
+                </p>
+            </div>
+        
+            <div class="cards-projetos">           
+                {% for item in projetos %}
+                <div class="card"">
+                    <img src="{{item.img}}" alt="mitski" class="artists-photo">
+                    <div  class="card-body">
+                        <h5 class="card-title">{{ item.nome }}</h5>
+                        <a href="{{item.link}}" class="btn btn-primary btn-custom" target="_blank">Acesse o repositório!</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    {% endblock content %}

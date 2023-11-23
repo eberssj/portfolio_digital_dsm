@@ -33,9 +33,9 @@
  
  git clone https://github.com/eberssj/portfolio_digital_dsm
  
- # Se direcione à pasta api:
+ # Se direcione à pasta src:
    
- cd portfolio_digital_dsm/api ou cd api
+ cd portfolio_digital_dsm/src
  
  # Crie um ambiente virtual:
  
@@ -51,7 +51,7 @@
  
  # Execute a aplicação app.py:
    
-flask --debug run
+ flask run
  
  # Acessar o site pelo link fornecido na terminal.
 
