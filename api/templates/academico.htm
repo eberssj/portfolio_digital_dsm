@@ -58,15 +58,16 @@
         
             <div class="cards-projetos">           
                 {% for item in projetos %}
-                <div class="card"">
-                    <img src="{{item.img}}" alt="mitski" class="artists-photo">
-                    <div  class="card-body">
+                <div class="card">
+                    <img src="{{item.img}}" alt="{{item.nome}}" class="artists-photo">
+                    <div class="card-body">
                         <h5 class="card-title">{{ item.nome }}</h5>
                         <a href="{{item.link}}" class="btn btn-primary btn-custom" target="_blank">Acesse o repositório!</a>
                     </div>
                 </div>
-            {% endfor %}
-        </div>
+                {% endfor %}
+            </div>
+            
     </main>
 
     {% endblock content %}

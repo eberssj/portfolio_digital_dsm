@@ -331,30 +331,27 @@ header {
  
 
 /* cards */
-
 .btn-primary {
-   --bs-btn-color: #fff ;
-   --bs-btn-bg: #5F805C !important;
-   --bs-btn-border-color: #5F805C !important;
-   --bs-btn-hover-color: #fff !important;
-   --bs-btn-hover-bg: #5F805C !important;
-   --bs-btn-hover-border-color: #5F805C !important;
-  
- }
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #5F805C !important;
+  --bs-btn-border-color: #5F805C !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #5F805C !important;
+  --bs-btn-hover-border-color: #5F805C !important;
+}
 
- .card-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
- }
+.card {
+  max-width: 400px; 
+  margin-bottom: 20px;
+}
 
- .card {
-   max-width: 400px; 
-   margin-bottom: 20px;
- }
-
- .cards-artists{
+.cards-artists {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -362,29 +359,30 @@ header {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
- }
+}
 
- .cards-projetos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.cards-projetos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
   gap: 32px;
- }
+  justify-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
- .card-body {
+.card-body {
   text-align: center;
- }
+}
 
- @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .cards-projetos {
-    flex-direction: column;
-    align-items: center;
+      grid-template-columns: 1fr; /* 1 column on smaller screens */
+      gap: 32px;
   }
-  .card{
-    width: 90%;
+  .card {
+      width: 90%;
   }
- }
-
+}
 
  /* footer */
 
